@@ -1,0 +1,34 @@
+name: foodie_finder
+description: "Final Project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  flutter_widget_from_html: ^0.15.3
+  cached_network_image: ^3.2.3
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.2
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png" # Path to your app icon
+  adaptive_icon_background: "#ffffff"     # Optional: background color for Android adaptive icon
+  adaptive_icon_foreground: "assets/images/app_icon.png" # Foreground icon for Android adaptive
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app_icon.png # Add your app icon to the assets folder
