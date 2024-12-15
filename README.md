@@ -2,15 +2,6 @@
 
 Final Project
 
-## Getting Started
+The Foodie Finder application provides a seamless way to search, view, and save recipes based on your preferred ingredients. The process begins with a simple search bar where users can type ingredients they have on hand. The app fetches relevant recipes in real-time using the Spoonacular API, displaying a list of results complete with titles, images, and sources. Tapping on a recipe directs users to detailed instructions, ingredients, and preparation steps, beautifully rendered for clarity. Users can mark their favorite recipes to save them locally for future reference. With its sleek design, intuitive navigation, and efficient functionality, Foodie Finder transforms the way users discover and prepare meals at home.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
